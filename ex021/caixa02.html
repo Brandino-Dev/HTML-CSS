@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+         a{
+            margin-right: 30px;
+            background-color: rgb(233, 214, 214);
+            border-radius: 5px;
+            box-shadow: 10px rgb(22, 22, 22);
+        }
+
+         a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        article > h2{
+            text-align: center;
+        }
+        
+        article{
+            background-color: lightblue;
+        }
+
+        article > aside{
+            background-color: rgb(141, 128, 128);
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+   </header>
+   <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <aside>
+                   
+                </aside>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magni recusandae quisquam voluptates maiores autem repellat doloribus dolore ex harum libero, placeat iusto expedita totam mollitia praesentium, sunt quidem vel!</p>
+                </aside>
+            </article>
+            <article>
+                <p>Artigo escrito por Rodrigo Brandino</p>
+            </article>
+        </section>
+   </main>
+   <footer>
+        <p>Desenvolvido pro Rodrigo Brandino.</p>
+   </footer>
+   <div id="bola">
+        
+   </div>
+</body>
+</html>
